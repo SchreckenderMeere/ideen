@@ -1,0 +1,52 @@
+body{
+    background-color: darkgreen;
+    margin-bottom: inherit;
+    margin-top: inherit;
+    margin-left: 300px;
+    margin-right: 300px;   
+}
+
+
+a{
+    color: palevioletred;  
+}
+
+a:hover{background:lemonchiffon ; transition: 800ms;}
+
+
+.Mitte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-family: serif;  
+}
+
+
+p{
+  font-family: sans-serif;
+  color: lemonchiffon;
+}
+
+.frage{
+    position: absolute; 
+    top: 320px;
+    right: 100px;
+    transform: rotate(-10deg);
+    font-size: 100px;
+}
+
+.frage1{
+     position: absolute; 
+     top: 330px;
+     left: 100px;
+     transform: rotate(7deg); 
+}
+
+.frage2{
+     position: absolute; 
+     top: 430px;
+     right: 470px;
+     transform: rotate(-9deg); 
+}
+
